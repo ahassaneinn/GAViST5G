@@ -1,6 +1,6 @@
 # GAViST5G
 
-This project provides Python notebooks for enhancing CSV files generated from Wireshark PCAP captures. The code processes network traffic data by enriching it with additional insights such as IP details, filtering background traffic and adding round-trip time (RTT), user geolocation, and connection type. Additionally, there is a notebook to aggregate packet data per second if desired. The order of processing the files is as follows:
+This project provides Python notebooks for enhancing CSV files generated from Wireshark PCAP captures. The code processes network traffic data by enriching it with additional insights such as IP geolocation details, filtering background traffic and adding round-trip time (RTT), user geolocation, and connection type. Additionally, there is a notebook to aggregate packet data per second if desired. The order of processing the files is as follows:
 
 1. AddIPDetails
 2. FilterGames/FilterVideo/FilterYouTube
